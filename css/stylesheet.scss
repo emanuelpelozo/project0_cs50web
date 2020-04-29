@@ -4,11 +4,12 @@ $msg-font: Times;
 
 @media (max-width: $breakpoint-phone){
   .center{
-    font-size: 10px;
+    font-size: 11px;
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: 20px;
     right: 15px;
+    font-weight:lighter;
 
   }
 }
@@ -69,7 +70,6 @@ ul{
   padding-top: 20px;
   position:absolute;
   font-family: $msg-font;
-  font-weight:bold;
 }
 
 .titular {
@@ -92,7 +92,7 @@ ul{
 .banner {
   width: 100%;
   height: auto;
-  opacity: 0.35;
+  opacity: 0.30;
 }
 
 .polaroid {
