@@ -1,0 +1,100 @@
+@media (max-width: 600px) {
+  .center {
+    font-size: 12px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    right: 15px; } }
+@media (min-width: 600px) and (max-width: 800px) {
+  .center {
+    font-size: 15px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    right: 110px; } }
+@media (min-width: 800px) {
+  .center {
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+body {
+  background-color: #ffffcc; }
+
+ul {
+  font-family: Roboto;
+  font-size: 20px; }
+
+.gallery {
+  border: 1px solid #ccc; }
+
+.gallery:hover {
+  border: 1px solid #777; }
+
+.gallery img {
+  width: 100%;
+  height: auto; }
+
+.desc-gallery {
+  padding: 15px;
+  text-align: center;
+  background-color: white; }
+
+.row > div {
+  margin-bottom: 15px; }
+
+.center {
+  padding-top: 20px;
+  position: absolute;
+  font-family: Times;
+  font-weight: bold; }
+
+.titular {
+  font-family: Impact;
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: bold; }
+
+.msg {
+  font-family: Times;
+  font-size: 18px;
+  font-style: oblique; }
+
+.img-titular {
+  border-radius: 20px 40px; }
+
+.banner {
+  width: 100%;
+  height: auto;
+  opacity: 0.35; }
+
+.polaroid, .verticalPolaroid, .horizontalPolaroid {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  padding-top: 20px; }
+
+.verticalPolaroid img {
+  left-padding: 10px;
+  height: 350px;
+  width: 80%; }
+
+.horizontalPolaroid img {
+  height: 280px;
+  width: 85%; }
+
+.desc-image-polaroid {
+  text-align: center;
+  height: 30px;
+  padding: 5px 20px; }
+
+.card-img-top {
+  height: 225px; }
+
+#cartelJumbotron {
+  background-color: #98bbcd;
+  font-family: sans-serif; }
+
+/*# sourceMappingURL=stylesheet.css.map */
