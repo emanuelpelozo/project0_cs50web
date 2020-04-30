@@ -2,7 +2,7 @@
   .center {
     font-size: 10px;
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: 20px;
     right: 15px;
     font-weight: lighter; }
@@ -15,7 +15,7 @@
     position: absolute;
     top: 50px;
     left: 80px;
-    right: 110px; } }
+    right: 80px; } }
 @media (min-width: 800px) {
   .center {
     font-size: 18px;
