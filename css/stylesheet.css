@@ -1,11 +1,14 @@
 @media (max-width: 600px) {
   .center {
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
-    top: 60px;
+    top: 85px;
     left: 20px;
     right: 15px;
-    font-weight: lighter; } }
+    font-weight: lighter; }
+
+  .nav-link, .navbar-brand {
+    font-size: 12px; } }
 @media (min-width: 600px) and (max-width: 800px) {
   .center {
     font-size: 15px;
